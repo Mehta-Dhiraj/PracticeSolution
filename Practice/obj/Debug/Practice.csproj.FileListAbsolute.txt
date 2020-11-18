@@ -1,0 +1,7 @@
+C:\DHIRAJ\CsCodes\PracticeSolution\Practice\bin\Debug\Practice.exe.config
+C:\DHIRAJ\CsCodes\PracticeSolution\Practice\bin\Debug\Practice.exe
+C:\DHIRAJ\CsCodes\PracticeSolution\Practice\bin\Debug\Practice.pdb
+C:\DHIRAJ\CsCodes\PracticeSolution\Practice\obj\Debug\Practice.csprojAssemblyReference.cache
+C:\DHIRAJ\CsCodes\PracticeSolution\Practice\obj\Debug\Practice.csproj.CoreCompileInputs.cache
+C:\DHIRAJ\CsCodes\PracticeSolution\Practice\obj\Debug\Practice.exe
+C:\DHIRAJ\CsCodes\PracticeSolution\Practice\obj\Debug\Practice.pdb
