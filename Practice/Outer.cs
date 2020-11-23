@@ -6,28 +6,38 @@ using System.Threading.Tasks;
 
 namespace Practice
 {
-    class Outer : Program
+    class Outer : Interface1,Interface2
     {
 
-        static void Main(System.String [] args)
+        static void Main(System.String[] args)
         {
-            Outer p1 = new Outer();
-            p1.Test1();
-            p1.Test2();
-            Console.WriteLine("Updated");
+            Outer obj = new Outer();
+            Interface1 i1 = obj;
+            i1.show1();
+            Interface2 i2 = obj;
+            i2.show1();
+            obj.show2();
+            obj.show3();
             Console.ReadLine();
         }
 
-        public override void Test1()
+        void Interface1.show1()
         {
-            Console.WriteLine("Method 1");
-
+            Console.WriteLine("show 1 of interface 1");
+        }
+        void Interface2.show1()
+        {
+            Console.WriteLine("show 1 of interface 2");
         }
 
-        public override void Test2()
+        public void show2()
         {
-            Console.WriteLine("Method 2");
+            Console.WriteLine("show 2");
+        }
 
+        public void show3()
+        {
+            Console.WriteLine("show 3");
         }
     }
 }
