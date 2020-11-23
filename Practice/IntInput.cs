@@ -10,10 +10,11 @@ namespace Practice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a Number");
-            var word = Convert.ToInt32(Console.ReadLine());
+           // Console.WriteLine("Enter a Number");
+            //var word = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Working on it");
+            Console.ReadLine();
         }
     }
 }

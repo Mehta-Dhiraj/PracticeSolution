@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Practice.Fiboncci</StartupObject>
+    <StartupObject>Practice.IntInput</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
