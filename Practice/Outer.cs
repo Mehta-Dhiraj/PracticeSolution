@@ -8,15 +8,26 @@ namespace Practice
 {
     class Outer : Program
     {
+
         static void Main(System.String [] args)
         {
             Outer p1 = new Outer();
-            p1.test2();
-            p1.test3();
-            p1.test4();
-            p1.test5();
+            p1.Test1();
+            p1.Test2();
             Console.WriteLine("Updated");
-            //Edited
+            Console.ReadLine();
+        }
+
+        public override void Test1()
+        {
+            Console.WriteLine("Method 1");
+
+        }
+
+        public override void Test2()
+        {
+            Console.WriteLine("Method 2");
+
         }
     }
 }
